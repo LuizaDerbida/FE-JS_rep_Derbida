@@ -1,0 +1,26 @@
+body{
+	background-image:url(images.jpg) ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+li{
+	font-weight: 600;
+	line-height: 1.2;
+	font-size: 14px;
+}
+#sixteen{
+	color: #FF0000;
+}
+#name{
+	color: lightcoral;
+}
+#rgb{
+	color: rgb(	139, 0, 0);
+}
+#hsl{
+	color: hsl(0, 70%, 88%);
+}
+#rgba{
+	color: rgba(220, 20, 60, 1.0);
+}

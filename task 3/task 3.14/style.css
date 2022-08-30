@@ -1,0 +1,44 @@
+.circle{
+	background-color: blue;
+	border-radius: 50%;
+}
+.blue{
+	background-color: blue;
+	
+}
+.red{
+	background-color: red;
+
+}
+table{
+	width: 200px;
+	height: 200px;
+
+    overflow: hidden;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table td {
+	padding: 0;
+	margin: 0;
+}
+.top{
+
+border-top-left-radius: 30px 30px;
+border-top-right-radius: 30px 30px;
+}
+.bottom{
+
+border-bottom-left-radius: 30px 30px;
+border-bottom-right-radius: 30px 30px;
+}
+.top_left{
+	border-top-left-radius: 30px 30px;
+}
+.bottom_left{
+	border-bottom-left-radius: 30px 30px;
+}
+
+.border{
+	border-radius: 0 30px 30px 0; 
+}

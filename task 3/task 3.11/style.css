@@ -1,0 +1,18 @@
+
+p{
+	background-color: blue;
+	height: 50%;
+	width: 50%;
+}
+div{
+	background-color: red;
+	height: 100px;
+	width: 100px;
+}
+.first{
+	margin-left: 50%;
+	margin-bottom: 0;
+}
+.second{
+	margin: 0;
+}
