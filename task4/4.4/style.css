@@ -1,0 +1,17 @@
+div{
+	display: inline-block;
+	float: left;
+	width: 33%;
+
+}
+.right{
+	float: right;
+	text-align: left;
+}
+.white{
+	background-color: white;
+}
+.wrapper{
+	background-color: red;
+	height: auto;
+}

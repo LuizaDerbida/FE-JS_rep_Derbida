@@ -1,0 +1,28 @@
+div{
+	display: inline-block;
+	float: left;
+	color: white;
+
+}
+.right{
+	float: right;
+}
+
+body{
+		width: 100%;
+}
+.one{
+	width: 20%;
+}
+.two{
+	width: 9em;
+}
+.three{
+	width: 5em;
+}
+.four{
+	width: 5em;
+}
+.fifth{
+	width: 6em;
+}

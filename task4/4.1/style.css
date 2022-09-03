@@ -1,0 +1,11 @@
+
+div{
+	border: 2px solid black;
+	width: 10%;
+	display:inline-block;
+	float: left;
+
+}
+.right{
+	float: right;
+}

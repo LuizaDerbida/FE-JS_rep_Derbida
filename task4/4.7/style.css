@@ -1,0 +1,10 @@
+div{
+	display: inline-block;
+	border: 2px black solid;
+	float: left;
+	box-sizing: border-box;
+	max-width: 20%;
+}
+body{
+	width: 600px;
+}

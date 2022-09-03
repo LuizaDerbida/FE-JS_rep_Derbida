@@ -1,0 +1,18 @@
+.red{
+	background-color: red;
+	width: 30%;
+}
+.green{
+	background-color: green;
+	width: 10%;
+}
+div{
+	display: inline-block;
+	
+
+}
+.right{
+	float: right;
+	margin-right: 60%;
+}
+
