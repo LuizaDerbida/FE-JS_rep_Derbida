@@ -1,0 +1,39 @@
+div{
+	border: 2px black solid;
+	display: flex;
+
+}
+@media(min-device-width: 768px){
+
+	.aside{
+		float: right;
+		width: 30%;
+
+	}
+	.nav{
+		float: left;
+		width: 30%;
+	}
+	.main{
+		margin-left: 30%;
+		margin-right: 30%;
+	}
+
+}
+
+@media(min-device-width: 992px){
+
+	.aside{
+		float: right;
+		width: 27%;
+	}
+	.nav{
+		float: left;
+		width: 27%;
+	}
+	.main{
+		margin-left: 31%;
+		margin-right: 31%;
+	}
+
+}

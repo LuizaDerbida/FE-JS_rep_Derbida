@@ -1,0 +1,9 @@
+.flex-container{
+	width: 500px;
+	display: inline-flex;
+}
+
+.flex-item{
+	width: 25%;
+	height: auto;
+}

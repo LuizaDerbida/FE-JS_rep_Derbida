@@ -1,0 +1,33 @@
+
+.flex-container{
+	display: flex;
+	border: solid 2px black;
+	justify-content: flex-start;
+	flex-direction: column-reverse;
+	flex-wrap: wrap;
+	height: 150px;
+	width: 60%;
+
+}
+.flex-items{
+	border: solid 3px black;
+	width: 300px;
+	margin: 5px;
+	height:20px;
+	padding: 5px;
+}
+.item1{
+	order: 0;
+}
+.item5{
+	order: 1;
+}
+.item3{
+	order: 1;
+}
+.item4{
+	order: 2;
+}
+.item2{
+	order: 2;
+}
