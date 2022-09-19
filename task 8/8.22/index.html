@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+let userName = prompt("Хто це?", '');
+
+if (userName === 'Адмін') {
+
+  let pass = prompt('Пароль?', '');
+
+  if (pass === 'Я головний') {
+    alert( 'Здрастуйте!' );
+  } else if (pass === '' || pass === null) {
+    alert( 'Скасовано' );
+  } else {
+    alert( 'Невірний пароль' );
+  }
+
+} else if (userName === '' || userName === null) {
+  alert( 'Скасовано' );
+} else {
+  alert( "Я вас не знаю" );
+}
+</script>
+</body>
+</html>

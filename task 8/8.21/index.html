@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+if (-1 || 0) alert( 'first'); // -1 || 0 = -1  (true)
+if (-1 && 0) alert( 'second' ); // -1 && 0 = 0, (false) 
+if (null || -1 && 1) alert('third' ); //-1 && 1 = 1
+// null || -1 && 1  ->  null || 1  ->  1
+//виконаються 1 і 3 алерти
+</script>
+</body>
+</html>
