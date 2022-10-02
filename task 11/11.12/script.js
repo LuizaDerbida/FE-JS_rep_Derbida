@@ -1,0 +1,21 @@
+function makeCounter() {
+  let count = 0;
+
+  return function() {
+    return count++;
+  };
+}
+
+let counter = makeCounter();
+let counter2 = makeCounter();
+
+alert( counter() ); // 0
+alert( counter() ); // 1
+
+alert( counter2() ); // 0
+alert( counter2() ); // 1
+
+
+//Функції counter і counter2 створюються різними викликами makeCounter.
+
+//Отже, вони мають незалежні зовнішні лексичні середовища, кожне з яких має свою власну змінну count.
