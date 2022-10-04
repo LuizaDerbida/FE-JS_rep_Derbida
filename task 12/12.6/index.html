@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<body>
+  <script>
+  let body = document.body;
+
+  body.innerHTML = "<!--" + body.tagName + "-->";
+
+  alert( body.firstChild.data ); // BODY. Замість <body> - коментар. body.tagName дорівнює "BODY", тому що tagName пишеться uppercase-ом.Коментар є єдиним дочірнім вузлом, тому саме він відобразиться в body.firstChild.
+А data – це те, що всередині <!--...-->, тобто "BODY".
+</script>
+</body>
+</html>

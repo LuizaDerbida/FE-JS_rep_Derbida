@@ -1,0 +1,7 @@
+Дайте відповіді на запитання: 
+1. Об'єктом якого класу є document? - document – це об'єкт класу HTMLDocument - alert(document); // [object HTMLDocument]
+2. Яке місце він посідає у DOM-ієрархії? - Node - Document - HTMLElement
+alert(HTMLDocument.prototype.constructor.name); // HTMLDocument
+alert(HTMLDocument.prototype.__proto__.constructor.name); // Document
+alert(HTMLDocument.prototype.__proto__.__proto__.constructor.name); // Node
+3. Чи успадковує він від Node чи від Element, чи може від HTMLElement? Від Node
