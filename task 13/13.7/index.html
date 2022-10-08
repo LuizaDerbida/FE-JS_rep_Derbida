@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+<body>
+<input id="button" type="button" value="press"/>
+
+<script>
+button.addEventListener("click", () => alert("1"));
+
+button.removeEventListener("click", () => alert("1"));
+
+button.onclick = () => alert(2);
+//1 і 2.
+
+//Перший обробник спрацює, тому що на ньому не було removeEventListener. В removeEventListener передається інша функція.
+
+
+</script>
+</body>
+</html>
